@@ -5,3 +5,7 @@ This projects tries to create a simple app to generate short stories using 5 sim
 ```
 pip install -r requirements.txt
 ```
+## Conclusion
+The app built is able to generate a short story with the 5 given description by the user. The app runs successfully if the user provided the expected input.
+
+Some improvements can be made especially from the user experience part. such as: The model is still going to generate a story even if the user doesn't provide any random input (including blank or random combintion of alphabets like "zzzz"). Streaming also can be implemented for better experience.
